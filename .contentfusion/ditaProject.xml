@@ -7,11 +7,20 @@
         </profile>
     </context>
     <publication id="webhelp" transtype="webhelp-responsive"/>
+    <publication id="pdf" transtype="pdf-css-html5"/>
     <deliverable id="d-luxury_website-1728576616748" name="luxury website">
         <context idref="KTkVDlunoUGDqqu"/>
         <output href="webhelp-output"/>
         <publication idref="webhelp">
             <param href="cf://templates/Magnesium" name="webhelp.publishing.template"/>
+            <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
+        </publication>
+    </deliverable>
+    <deliverable id="d-deluxe_pdf-1728658802904" name="deluxe pdf">
+        <context idref="KTkVDlunoUGDqqu"/>
+        <output href="pdf-output"/>
+        <publication idref="pdf">
+            <param href="cf://templates/Argon" name="pdf.publishing.template"/>
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
         </publication>
     </deliverable>
