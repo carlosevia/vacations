@@ -30,7 +30,7 @@
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
         </publication>
     </deliverable>
-    <deliverable id="d-cheapo_website-1728910740012" name="cheapo website">
+    <deliverable id="d-cheapo_website-1728910740012" name="cheapo pdf">
         <context idref="uBKduXpwTrvppOL"/>
         <output href="pdf-output"/>
         <publication idref="pdf">
