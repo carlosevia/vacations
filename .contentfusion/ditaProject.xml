@@ -18,7 +18,7 @@
         <context idref="KTkVDlunoUGDqqu"/>
         <output href="webhelp-output"/>
         <publication idref="webhelp">
-            <param name="webhelp.publishing.template" href="cf://templates/Magnesium"/>
+            <param href="cf://templates/Magnesium" name="webhelp.publishing.template"/>
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
         </publication>
     </deliverable>
@@ -26,7 +26,15 @@
         <context idref="KTkVDlunoUGDqqu"/>
         <output href="pdf-output"/>
         <publication idref="pdf">
-            <param name="pdf.publishing.template" href="cf://templates/Argon"/>
+            <param href="cf://templates/Argon" name="pdf.publishing.template"/>
+            <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
+        </publication>
+    </deliverable>
+    <deliverable id="d-cheapo_website-1728910740012" name="cheapo website">
+        <context idref="uBKduXpwTrvppOL"/>
+        <output href="pdf-output"/>
+        <publication idref="pdf">
+            <param href="cf://templates/Astatine" name="pdf.publishing.template"/>
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
         </publication>
     </deliverable>
