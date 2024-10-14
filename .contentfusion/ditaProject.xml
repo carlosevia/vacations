@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <project xmlns="https://www.dita-ot.org/project">
+    <context id="uBKduXpwTrvppOL" name="cheapo">
+        <input href="../vacation-packages.ditamap"/>
+        <profile>
+            <ditaval href="../cheapo.ditaval"/>
+        </profile>
+    </context>
     <context id="KTkVDlunoUGDqqu" name="beyonce">
         <input href="../vacation-packages.ditamap"/>
         <profile>
@@ -12,7 +18,7 @@
         <context idref="KTkVDlunoUGDqqu"/>
         <output href="webhelp-output"/>
         <publication idref="webhelp">
-            <param href="cf://templates/Magnesium" name="webhelp.publishing.template"/>
+            <param name="webhelp.publishing.template" href="cf://templates/Magnesium"/>
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
         </publication>
     </deliverable>
@@ -20,7 +26,7 @@
         <context idref="KTkVDlunoUGDqqu"/>
         <output href="pdf-output"/>
         <publication idref="pdf">
-            <param href="cf://templates/Argon" name="pdf.publishing.template"/>
+            <param name="pdf.publishing.template" href="cf://templates/Argon"/>
             <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
         </publication>
     </deliverable>
