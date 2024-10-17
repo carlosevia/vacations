@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_gyf_3ds_bdc">
+    <title>task</title>
+    <shortdesc></shortdesc>
+    <taskbody>
+        <prereq id="prereq_jwy_lds_bdc"/>
+        <context>
+            <p></p>
+        </context>
+        <steps>
+            <step>
+                <cmd></cmd>
+                <stepresult>
+                    <fig id="fig_jwm_pds_bdc">
+                        <title>Pic</title>
+                        <image href="LatinxGrad22_Print-13.jpg" id="image_qnw_rds_bdc" alt="Loverly"
+                        />
+                    </fig>
+                </stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>
