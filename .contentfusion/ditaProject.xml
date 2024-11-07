@@ -8,4 +8,12 @@
     </context>
     <publication id="webhelp" transtype="webhelp-responsive"/>
     <publication id="pdf" transtype="pdf-css-html5"/>
+    <deliverable id="d-Luxury_website-1730998050046" name="Luxury website">
+        <context idref="ovXLoWAnutOMwSB"/>
+        <output href="webhelp-output"/>
+        <publication idref="webhelp">
+            <param href="cf://templates/Iodine" name="webhelp.publishing.template"/>
+            <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
+        </publication>
+    </deliverable>
 </project>
